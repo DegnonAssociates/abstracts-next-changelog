@@ -8,6 +8,8 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-08-18
 
+- Feature: Added configurable per-instance browser tab titles with a safe default when no title is configured.
+- Update: Restyled Back navigation controls to use the configured primary color consistently.
 - Fix: Counted historical reviewer assignments as completed when a matching reviewer response record exists, reflecting the archive's submitted-review data contract.
 - Fix: Corrected historical submission and review selection responses to display configured labels and support legacy selection storage.
 
