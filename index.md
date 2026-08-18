@@ -6,6 +6,11 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-08-18
+
+- Fix: Counted historical reviewer assignments as completed when a matching reviewer response record exists, reflecting the archive's submitted-review data contract.
+- Fix: Corrected historical submission and review selection responses to display configured labels and support legacy selection storage.
+
 ## 2026-08-12
 
 - Feature: Added question duplication actions so admins can copy existing question configuration instead of rebuilding similar questions manually (`7ef3c8d`).
