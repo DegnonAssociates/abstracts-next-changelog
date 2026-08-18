@@ -11,6 +11,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 - Feature: Added an Other option to Career Level author fields with required custom details and support for preserving unmatched MemberClicks values.
 - Feature: Added configurable per-instance browser tab titles with a safe default when no title is configured.
 - Update: Restyled Back navigation controls to use the configured primary color consistently.
+- Fix: Kept Other response text boxes usable for legacy choices with numeric stored values by recognizing the Other label consistently in admin and submission forms.
 - Fix: Counted historical reviewer assignments as completed when a matching reviewer response record exists, reflecting the archive's submitted-review data contract.
 - Fix: Corrected historical submission and review selection responses to display configured labels and support legacy selection storage.
 
