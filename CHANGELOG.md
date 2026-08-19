@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-08-19
+
+- Fix: Prevented submission and payment checkout until the instance-scoped main author profile satisfies every required author field, with overview guidance for missing details.
+
 ## 2026-08-18
 
 - Feature: Added an Other option to Career Level author fields with required custom details and support for preserving unmatched MemberClicks values.
