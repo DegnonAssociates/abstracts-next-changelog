@@ -8,6 +8,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-08-19
 
+- Fix: Kept review question numbering consecutive when heading-only fields divide sections, without displaying numbers on those headings.
 - Fix: Prevented submission and payment checkout until the instance-scoped main author profile satisfies every required author field, with overview guidance for missing details.
 
 ## 2026-08-18
