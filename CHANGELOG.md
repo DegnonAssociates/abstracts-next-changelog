@@ -8,6 +8,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-08-18
 
+- Feature: Added a configurable tri-state "All" control for checkbox questions that selects and stores every configured option without adding a synthetic answer value.
 - Feature: Added an Other option to Career Level author fields with required custom details and support for preserving unmatched MemberClicks values.
 - Feature: Added configurable per-instance browser tab titles with a safe default when no title is configured.
 - Update: Restyled Back navigation controls to use the configured primary color consistently.
