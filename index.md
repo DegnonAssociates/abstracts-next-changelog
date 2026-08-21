@@ -8,7 +8,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-08-21
 
-- Fix: Warned users before the add-author dialog closes and discards entered author information, with an option to continue editing.
+- Fix: Made the add-author close warning reliably appear before entered author information is discarded, with an option to continue editing.
 
 ## 2026-08-20
 
