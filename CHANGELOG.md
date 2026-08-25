@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-08-25
+
+- Update: Upgraded Next.js and its matching ESLint configuration to version 15.5.24.
+
 ## 2026-08-21
 
 - Fix: Made the add-author close warning reliably appear before entered author information is discarded, with an option to continue editing.
