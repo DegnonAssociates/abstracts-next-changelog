@@ -4,6 +4,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-08-28
 
+- Update: Limited each submission to zero or one presenting author, automatically replacing the current presenter when another author is selected.
 - Fix: Extended the add-author unsaved-information warning to Cancel and backdrop dismissals, preserving entered details when users continue editing.
 
 ## 2026-08-25
