@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-01
+
+- Fix: Persisted drag-and-drop author ordering so reordered authors remain in the selected sequence after refresh.
+
 ## 2026-08-31
 
 - Update: Required one presenting author before submission or payment when the submission type includes the presenting-author question, while leaving other author forms unaffected.
