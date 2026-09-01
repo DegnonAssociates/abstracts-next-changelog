@@ -14,7 +14,9 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 - Feature: Added conditional branching to review questions, including checkbox any/all matching and conditional-aware completion and export statuses.
 - Update: Limited each submission to zero or one presenting author, automatically replacing the current presenter when another author is selected.
+- Update: Renamed the submission overview action to “Add/Edit Submission Info” for consistency with the authors action.
 - Fix: Extended the add-author unsaved-information warning to Cancel and backdrop dismissals, preserving entered details when users continue editing.
+- Fix: Displayed call-for-reviewer heading-only fields as section headings without response inputs, metadata, or interruptions to question numbering.
 
 ## 2026-08-25
 
