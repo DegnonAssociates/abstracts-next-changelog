@@ -6,6 +6,10 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-02
+
+- Fix: Kept newly created sub-abstracts on the parent overview as cards and stopped automatically assigning the parent submission's main author to them.
+
 ## 2026-09-01
 
 - Fix: Persisted drag-and-drop author ordering so reordered authors remain in the selected sequence after refresh.
