@@ -4,6 +4,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-02
 
+- Feature: Let administrators configure included and required author fields for child sub-abstract submission types.
 - Fix: Kept newly created sub-abstracts on the parent overview as cards and stopped automatically assigning the parent submission's main author to them.
 - Fix: Marked authorless sub-abstracts as needing attention and prevented submission until at least one author is added.
 
