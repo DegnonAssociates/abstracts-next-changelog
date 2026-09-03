@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-03
+
+- Feature: Grant the local Admin role during MemberClicks login when the OAuth token contains the exact `ROLE_ADMIN` authority, while preserving existing roles and preventing duplicate Admin entries.
+
 ## 2026-09-02
 
 - Feature: Let administrators configure included and required author fields for child sub-abstract submission types.
