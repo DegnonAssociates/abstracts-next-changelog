@@ -8,6 +8,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-09
 
+- Update: Clearly confirm successful reviewer application submission in both the toast notification and inline form message.
 - Feature: Let administrators insert previewed reviewer assignments, replacing assignments for submitted abstracts in the selected instance in one transaction.
 - Fix: Exclude main authors, submitting authors, and coauthors from reviewing their own submissions, including when organization information is missing.
 - Feature: Add soft removal from the Call for Reviewers responses list while preserving accounts, responses, reviewer roles, and existing assignments.
