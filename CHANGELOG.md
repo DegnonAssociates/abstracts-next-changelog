@@ -2,6 +2,14 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-09
+
+- Feature: Let administrators insert previewed reviewer assignments, replacing assignments for submitted abstracts in the selected instance in one transaction.
+- Fix: Exclude main authors, submitting authors, and coauthors from reviewing their own submissions, including when organization information is missing.
+- Feature: Add soft removal from the Call for Reviewers responses list while preserving accounts, responses, reviewer roles, and existing assignments.
+- Maintenance: Add the reviewer-call removal timestamp and deployment SQL in `docs/database/reviewer-call-soft-removal.sql`; apply the SQL before deploying.
+- Tests: Cover assignment insertion, author conflicts, and reviewer-call removal with server and UI regression tests.
+
 ## 2026-09-04
 
 - Update: Displayed the configured instance name as the landing page heading instead of the generic abstract submission label and year.
