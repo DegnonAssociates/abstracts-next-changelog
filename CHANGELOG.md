@@ -4,6 +4,9 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-10
 
+- Feature: Add independent review guidance with admin draft, preview, publish, and PDF controls; both reviewer guidelines links now open the published review content.
+- Maintenance: Add the review guidance Prisma model and manual SQL in `docs/database/review-guidance.sql`; apply the SQL before deployment.
+- Tests: Cover independent review publishing, draft visibility, access controls, and shared guidance editor behavior.
 - Feature: Let administrators duplicate email templates into numbered copies and immediately edit them, preserving message content and recipient filters while leaving send history and scheduled reminders with the original.
 
 ## 2026-09-09
