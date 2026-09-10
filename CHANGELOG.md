@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-10
+
+- Feature: Let administrators duplicate email templates into numbered copies and immediately edit them, preserving message content and recipient filters while leaving send history and scheduled reminders with the original.
+
 ## 2026-09-09
 
 - Update: Clearly confirm successful reviewer application submission in both the toast notification and inline form message.
