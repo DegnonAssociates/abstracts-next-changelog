@@ -8,6 +8,9 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-16
 
+- Update: Display each posting's friendly submission ID across reports, exports, reviewer workflows, email content, historical views, assignment tools, and member activity instead of exposing its database primary key.
+- Fix: Show a clear unavailable state for legacy postings without a friendly ID rather than falling back to the database primary key.
+- Fix: Exclude child abstracts from dashboard totals, charts, and bulk or scheduled submission-author audiences while keeping them available for deliberate individual emails and normal reviewer notifications.
 - Fix: Keep included and required author-field menus open while selecting multiple fields when creating or editing submission types.
 
 ## 2026-09-10
