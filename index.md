@@ -6,6 +6,10 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-16
+
+- Fix: Keep included and required author-field menus open while selecting multiple fields when creating or editing submission types.
+
 ## 2026-09-10
 
 - Feature: Add independent review guidance with admin draft, preview, publish, and PDF controls; both reviewer guidelines links now open the published review content.
