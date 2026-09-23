@@ -8,6 +8,8 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-23
 
+- Update: Add a Save responses button beside the back link at the top of submission questions and rename Final Submission to Finalize Submission.
+
 - Update: Shorten the submission overview heading to “Submission Information.”
 
 ## 2026-09-22
