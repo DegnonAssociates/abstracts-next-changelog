@@ -5,6 +5,9 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 ## 2026-09-28
 
 - Feature: Add filtered CSV and Excel exports for Call for Reviewers responses from the reviewer administration area.
+- Feature: Add an instance-54 SBSM reviewer assignment page that matches submission types, topics, and clinical-trial experience, treats each symposium as one review, and balances workload within reviewer limits.
+- Safety: Preview assignments and export CSVs before replacing only the included submissions' assignments. Require acknowledgement of shortages, reject stale previews, and block replacement after reviews have started. No database migration is required.
+- Tests: Cover matching priorities, symposium aggregation, conflict exclusions, instance access, transactional replacement, and preview controls.
 
 ## 2026-09-23
 
