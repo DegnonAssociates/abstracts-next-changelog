@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-28
+
+- Feature: Add filtered CSV and Excel exports for Call for Reviewers responses from the reviewer administration area.
+
 ## 2026-09-23
 
 - Feature: Allow an edited submission author to be made the submission's sole main author when changes are saved.
