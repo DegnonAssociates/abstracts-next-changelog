@@ -4,7 +4,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-29
 
-- Feature: Add a review administration CSV import for reviewer assignments using reviewer IDs and friendly abstract IDs, with instance-scoped validation and duplicate protection.
+- Feature: Add a review administration CSV import for up to 5,000 reviewer assignments using reviewer IDs and friendly abstract IDs, with instance-scoped validation, duplicate protection, and specific invalid-payload feedback.
 
 ## 2026-09-28
 
