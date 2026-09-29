@@ -6,6 +6,10 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-09-29
+
+- Feature: Add a review administration CSV import for reviewer assignments using reviewer IDs and friendly abstract IDs, with instance-scoped validation and duplicate protection.
+
 ## 2026-09-28
 
 - Feature: Add filtered CSV and Excel exports for Call for Reviewers responses from the reviewer administration area.
