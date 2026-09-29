@@ -4,6 +4,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-09-29
 
+- Feature: Let submission types include a separate review form for every child abstract, store reviewer answers against each child, and require all child reviews for assignment completion.
 - Feature: Add a review administration CSV import for up to 5,000 reviewer assignments using reviewer IDs and friendly abstract IDs, with instance-scoped validation, duplicate protection, and specific invalid-payload feedback.
 
 ## 2026-09-28
