@@ -2,6 +2,14 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-01
+
+- Update: Hide the add sub-abstract option once a submission reaches its configured child maximum, and enforce the same limit on the server.
+
+## 2026-09-30
+
+- Feature: Let administrators configure minimum and maximum child counts for submission types with sub-abstracts, treating zero as unlimited and validating every active child's required fields and author count before parent submission without requiring the children to be submitted separately.
+
 ## 2026-09-29
 
 - Feature: Let submission types include a separate review form for every child abstract, store reviewer answers against each child, and require all child reviews for assignment completion.
