@@ -6,6 +6,10 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-02
+
+- Removed: Retire the instance-54 SBSM reviewer assignment page, matching rules, exports, and supporting tests and documentation. Preserve the general reviewer assignment tools, CSV assignment import, and payment-test checkout-key correction.
+
 ## 2026-10-01
 
 - Update: Hide the add sub-abstract option once a submission reaches its configured child maximum, and enforce the same limit on the server.
