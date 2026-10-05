@@ -6,6 +6,12 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-05
+
+- Fix: Store review opening times separately from submission opening times so editing either schedule no longer changes the other.
+- Maintenance: Add the nullable `review_open_date` column and manual deployment SQL in `docs/database/review-open-date.sql`, preserving existing submission dates and review deadlines. Administrators must enter intended review opening times and check any submission opening times overwritten by the previous shared setting.
+- Tests: Cover independent schedule updates, instance-timezone conversion, and review-open display when a date is set or unset.
+
 ## 2026-10-02
 
 - Removed: Retire the instance-54 SBSM reviewer assignment page, matching rules, exports, and supporting tests and documentation. Preserve the general reviewer assignment tools, CSV assignment import, and payment-test checkout-key correction.
