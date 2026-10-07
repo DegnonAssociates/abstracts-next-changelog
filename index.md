@@ -6,6 +6,13 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-07
+
+- Fix: Preserve unsaved conditional answers when hiding and reopening reviewer-call and presentation-confirmation questions, and update nested visibility immediately for source changes and checkbox Select All.
+- Fix: Exclude hidden saved answers from report values, review averages, and reviewer assignment exports while retaining them for later editing.
+- Fix: Validate conditional child-review completion using source options and display order, and refresh question-logic source eligibility when opening add or edit dialogs after configuration changes.
+- Tests: Add regression coverage for all five conditional-question review findings, including hidden-answer preservation, per-reviewer score filtering, nested branches, checkbox Select All, and refreshed or reordered dialogs.
+
 ## 2026-10-05
 
 - Fix: Store review opening times separately from submission opening times so editing either schedule no longer changes the other.
@@ -18,6 +25,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-10-01
 
+- Feature: Align conditional question logic across submission, review, call-for-reviewer, and presentation-confirmation forms, including any-earlier-question sources, checkbox any/all matching, invalid-rule warnings, nested visibility, and preservation of hidden answers.
 - Update: Hide the add sub-abstract option once a submission reaches its configured child maximum, and enforce the same limit on the server.
 
 ## 2026-09-30
