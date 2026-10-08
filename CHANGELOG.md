@@ -2,6 +2,10 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-08
+
+- Fix: Remove the separate final submission action from child abstracts and clarify that they are validated when the parent submission is finalized.
+
 ## 2026-10-07
 
 - Fix: Preserve unsaved conditional answers when hiding and reopening reviewer-call and presentation-confirmation questions, and update nested visibility immediately for source changes and checkbox Select All.
