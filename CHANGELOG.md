@@ -2,6 +2,12 @@
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-12
+
+- Fix: Keep review-question order numbers aligned with saved values so gaps do not incorrectly block conditional logic. Default new questions to the number after the highest saved order, and refresh logic eligibility when opening the add dialog.
+- Fix: Save drag-and-drop order changes in one transaction, including renumbering that leaves the question sequence unchanged. Block edits during reordering and restore saved numbers when a reorder fails or is cancelled.
+- Tests: Cover saved-order edits, conditional review questions, new-question defaults, drag saves under React Strict Mode, and failed or cancelled reorders.
+
 ## 2026-10-08
 
 - Fix: Remove the separate final submission action from child abstracts and clarify that they are validated when the parent submission is finalized.
