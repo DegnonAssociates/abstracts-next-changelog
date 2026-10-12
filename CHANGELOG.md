@@ -4,6 +4,7 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-10-12
 
+- Fix: Reject malformed Server Action requests before they reach Next.js action handling, preserving valid action IDs and API/webhook routes; malformed `INSTANCE` cookies now fall back quietly to fresh instance resolution.
 - Fix: Keep review-question order numbers aligned with saved values so gaps do not incorrectly block conditional logic. Default new questions to the number after the highest saved order, and refresh logic eligibility when opening the add dialog.
 - Fix: Save drag-and-drop order changes in one transaction, including renumbering that leaves the question sequence unchanged. Block edits during reordering and restore saved numbers when a reorder fails or is cancelled.
 - Tests: Cover saved-order edits, conditional review questions, new-question defaults, drag saves under React Strict Mode, and failed or cancelled reorders.
