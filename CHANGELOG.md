@@ -4,6 +4,9 @@ This changelog tracks notable features, updates, fixes, tests, and maintenance w
 
 ## 2026-10-13
 
+- Feature: Let administrators update the login page's Create Account URL in General Configuration, with URL validation and the option to leave it blank to disable the button. Uses the existing database field without a migration.
+- Fix: Respect a cleared Create Account URL even when the instance cookie still contains an older link.
+- Tests: Cover saving, clearing, and rejecting invalid account URLs, plus login button behavior with an outdated instance cookie.
 - Feature: Add a sortable Symposium ID to web and Excel reports containing sub-abstract types, using the same grouping value for selected parent submissions and their children.
 - Fix: Include sub-abstracts in reports filtered to Submitted when their parent abstract has been submitted.
 - Update: Streamline report building to show questions only for selected submission types, simplify the default result columns, widen titles, separate filters from actions, and open a selected submission viewer in a new tab.
