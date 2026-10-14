@@ -6,6 +6,13 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-14
+
+- Feature: Add private late-submission links in Submission Admin, with a recipient email, submission type, individual expiration in the instance timezone, and early revocation. Public submission deadlines remain unchanged.
+- Update: Return recipients to their private link after MemberClicks or Neon sign-in, reuse an unfinished draft where available, and apply the private deadline to its sub-abstracts. Expired or revoked access blocks recipient edits, final submission, and new payment attempts while preserving normal admin access.
+- Maintenance: Add late-submission access storage and deployment SQL in `docs/database/late-submission-access.sql`. Store token hashes and atomically claim each link for one top-level submission.
+- Tests: Cover admin authorization, recipient and instance matching, expiration, revocation, timezone validation, repeated visits, concurrent-claim retries, SSO return handling, and deadline enforcement throughout the submission workflow.
+
 ## 2026-10-13
 
 - Feature: Let administrators update the login page's Create Account URL in General Configuration, with URL validation and the option to leave it blank to disable the button. Uses the existing database field without a migration.
