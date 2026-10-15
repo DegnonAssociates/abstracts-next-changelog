@@ -6,6 +6,15 @@ title: Changelog
 
 This changelog tracks notable features, updates, fixes, tests, and maintenance work applied to the app since its creation. Entries are listed in reverse chronological order and are based on the non-merge Git history through commit `7ef3c8d`.
 
+## 2026-10-15
+
+- Update: Send web and scheduled-reminder email directly through Amazon SES using the existing IAM group policy and dedicated `SES_*` settings, removing the AWS-API email relay dependency.
+- Fix: Preserve CC/BCC, instance sender addresses, HTML/plain-text bodies, SES message IDs, and delivery-event tracking tags. Disable SDK retries and retain uncertain delivery outcomes for reconciliation rather than risking duplicate sends.
+- Tests: Cover direct SES configuration, message payloads, tracking tags, and definite versus uncertain failures.
+- Update: Search Neon author accounts directly through Neon CRM using existing instance credentials, removing the remaining AWS-API relay call. Preserve individual-account filtering, existing name/email rules, first-page results, and author identity handling.
+- Fix: Bound Neon searches to ten seconds, report access/rate-limit/network/invalid-response failures, and ignore stale search results after the query or submission changes.
+- Tests: Cover direct Neon request formatting, credential formats, preserved search behavior, failure handling, and stale responses.
+
 ## 2026-10-14
 
 - Feature: Add private late-submission links in Submission Admin, with a recipient email, submission type, individual expiration in the instance timezone, and early revocation. Public submission deadlines remain unchanged.
